@@ -224,29 +224,31 @@
 
 .slidev-layout:has(.toc-slide-marker) {
   gap: 0;
+  justify-content: flex-start;
+  padding-top: 48px !important;
 }
 
 .slidev-layout:has(.toc-slide-marker) h1 {
-  font-size: 2.6rem !important;
+  font-size: 2.25rem !important;
   line-height: 1.05 !important;
-  margin: 0 0 2.2rem !important;
+  margin: 0 0 1.7rem !important;
 }
 
 .slidev-layout:has(.toc-slide-marker) .toc-list {
   display: flex;
   flex-direction: column;
-  width: min(100%, 900px);
-  gap: 0.95rem;
+  width: min(100%, 940px);
+  gap: 0.72rem;
 }
 
 .slidev-layout:has(.toc-slide-marker) .toc-item {
   display: grid;
-  grid-template-columns: 8.2rem minmax(0, 1fr);
+  grid-template-columns: 7.2rem minmax(0, 1fr);
   align-items: baseline;
-  column-gap: 1.2rem;
+  column-gap: 1.05rem;
   color: #b8b8b8;
   border-bottom: 1px solid #ededed;
-  padding: 0 0 0.75rem;
+  padding: 0.5rem 0 0.68rem;
 }
 
 .slidev-layout:has(.toc-slide-marker) .toc-item.is-current {
@@ -255,13 +257,14 @@
 
 .slidev-layout:has(.toc-slide-marker) .toc-index {
   color: inherit;
-  font-size: 1.08rem;
+  font-size: 1.36rem;
   font-weight: 700;
+  line-height: 1.22;
 }
 
 .slidev-layout:has(.toc-slide-marker) .toc-title {
   color: inherit;
-  font-size: 1.58rem;
+  font-size: 1.36rem;
   font-weight: 650;
   line-height: 1.22;
 }
