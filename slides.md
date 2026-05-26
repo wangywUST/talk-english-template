@@ -56,13 +56,25 @@ These three questions are, fundamentally, the same question.
 
 ---
 
-<!-- 页面类型：章节分隔页。用于进入一个新的 Part，让听众知道报告结构发生切换。 -->
+<!-- 页面类型：目录页。用于进入一个新的 Part，并在目录中高亮当前章节。 -->
 
-# Part 1 - Perception != Understanding
-<!-- 章节标题：写 Part 编号和本章节主题。 -->
+<span class="toc-slide-marker"></span>
+<!-- 页面标记：触发 style.css 中的目录页专用样式。 -->
 
-![Figure](/Image/fig_23.png)
-<!-- 章节图：放置能代表本章节主题的视觉封面或概念图。 -->
+# Contents
+<!-- 目录标题：说明当前页展示报告结构。 -->
+
+<div class="toc-list">
+  <div class="toc-item is-current">
+    <span class="toc-index">Part 1</span>
+    <span class="toc-title">Perception != Understanding</span>
+  </div>
+  <div class="toc-item">
+    <span class="toc-index">Part 6</span>
+    <span class="toc-title">Looking Up: From Reasoning to Action</span>
+  </div>
+</div>
+<!-- 目录条目：当前章节行保留深色，其他章节行由样式变为浅灰。 -->
 
 ---
 
@@ -147,10 +159,25 @@ Each **reasoning step** corresponds to a physical operation, and conclusions fro
 
 ---
 
-<!-- 页面类型：纯章节标题页。用于轻量切换到新部分，不放图片，适合节奏很快或后续页面会马上展开视觉内容的章节。 -->
+<!-- 页面类型：目录页。用于进入一个新的 Part，并在目录中高亮当前章节。 -->
 
-# Part 6 - Looking Up: From Reasoning to Action
-<!-- 章节标题：只写 Part 编号和章节主题。 -->
+<span class="toc-slide-marker"></span>
+<!-- 页面标记：触发 style.css 中的目录页专用样式。 -->
+
+# Contents
+<!-- 目录标题：说明当前页展示报告结构。 -->
+
+<div class="toc-list">
+  <div class="toc-item">
+    <span class="toc-index">Part 1</span>
+    <span class="toc-title">Perception != Understanding</span>
+  </div>
+  <div class="toc-item is-current">
+    <span class="toc-index">Part 6</span>
+    <span class="toc-title">Looking Up: From Reasoning to Action</span>
+  </div>
+</div>
+<!-- 目录条目：当前章节行保留深色，其他章节行由样式变为浅灰。 -->
 
 ---
 
