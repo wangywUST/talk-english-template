@@ -177,8 +177,7 @@
 }
 
 .slidev-layout .title-slide-marker,
-.slidev-layout .closing-slide-marker,
-.slidev-layout .section-slide-marker {
+.slidev-layout .closing-slide-marker {
   display: none;
 }
 
@@ -243,117 +242,4 @@
 .slidev-layout:has(.closing-slide-marker) p:has(> a[href^="mailto:"]),
 .slidev-layout:has(.closing-slide-marker) a[href^="mailto:"] {
   color: #1f5f83 !important;
-}
-
-.slidev-layout:has(.section-slide-marker) {
-  position: relative;
-  justify-content: center;
-  overflow: hidden;
-  padding: 70px 74px 58px !important;
-  background:
-    linear-gradient(90deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.91) 56%, rgba(255, 255, 255, 0.74) 100%),
-    repeating-linear-gradient(90deg, rgba(31, 95, 131, 0.08) 0 1px, transparent 1px 88px),
-    repeating-linear-gradient(0deg, rgba(92, 75, 138, 0.06) 0 1px, transparent 1px 72px),
-    #fbfcfd !important;
-}
-
-.slidev-layout:has(.section-slide-marker)::before {
-  content: "";
-  position: absolute;
-  inset: 46px 50px;
-  border: 1px solid rgba(26, 26, 26, 0.08);
-  pointer-events: none;
-}
-
-.slidev-layout:has(.section-slide-marker)::after {
-  content: "";
-  position: absolute;
-  left: 74px;
-  bottom: 58px;
-  width: 44%;
-  height: 3px;
-  background: linear-gradient(90deg, #9a4f00 0%, #1f5f83 44%, rgba(31, 95, 131, 0) 100%);
-}
-
-.slidev-layout:has(.section-slide-marker) .section-slide-marker {
-  display: block;
-  position: absolute;
-  left: 74px;
-  top: 64px;
-  z-index: 2;
-  width: 11rem;
-  padding-top: 0.25rem;
-  border-top: 3px solid #9a4f00;
-  color: #5c4b8a;
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-.slidev-layout:has(.section-slide-marker) .section-slide-marker::before {
-  content: attr(data-index);
-  display: block;
-  color: #1f5f83;
-  font-size: 3.4rem;
-  line-height: 0.9;
-}
-
-.slidev-layout:has(.section-slide-marker) .section-slide-marker::after {
-  content: attr(data-kicker);
-  display: block;
-  margin-top: 0.5rem;
-  font-size: 0.92rem;
-  text-transform: uppercase;
-}
-
-.slidev-layout:has(.section-slide-marker) h1 {
-  z-index: 2;
-  max-width: 58%;
-  color: #1a1a1a !important;
-  font-size: 3.28rem !important;
-  line-height: 1.03 !important;
-  margin: 0 0 0 13rem !important;
-}
-
-.slidev-layout:has(.section-slide-marker) h1::after {
-  content: "";
-  display: block;
-  width: 11rem;
-  height: 0.42rem;
-  margin-top: 1.25rem;
-  background: linear-gradient(90deg, rgba(154, 79, 0, 0.86) 0 34%, rgba(31, 95, 131, 0.78) 34% 66%, rgba(92, 75, 138, 0.72) 66% 100%);
-}
-
-.slidev-layout:has(.section-slide-marker) p {
-  z-index: 2;
-}
-
-.slidev-layout:has(.section-slide-marker) p:has(> img) {
-  position: absolute;
-  top: 64px;
-  right: 58px;
-  bottom: 58px;
-  width: 34%;
-  height: auto;
-  min-height: 0;
-  margin: 0 !important;
-  border: 1px solid rgba(26, 26, 26, 0.12);
-  box-shadow: 0 16px 38px rgba(30, 35, 45, 0.14);
-  background: #fff;
-}
-
-.slidev-layout:has(.section-slide-marker) p:has(> img)::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 58%, rgba(26, 26, 26, 0.16) 100%);
-  pointer-events: none;
-}
-
-.slidev-layout:has(.section-slide-marker) p:has(> img) img {
-  object-fit: cover;
-  object-position: center;
-}
-
-.slidev-layout:has(.section-slide-marker):not(:has(p > img)) h1 {
-  max-width: 74%;
 }
