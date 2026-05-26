@@ -2,7 +2,7 @@
 theme: dracula
 title: Signal is Physics
 info: |
-  Group Meeting Talk - 2026
+  Talk Slides Template
 highlighter: shiki
 drawings:
   persist: false
