@@ -58,8 +58,10 @@ These three questions are, fundamentally, the same question.
 
 <!-- 页面类型：章节分隔页。用于进入一个新的 Part，让听众知道报告结构发生切换。 -->
 
-# Part 1 - Perception != Understanding
-<!-- 章节标题：写 Part 编号和本章节主题。 -->
+<span class="section-slide-marker" data-kicker="Part 1" data-index="01"></span>
+
+# Perception != Understanding
+<!-- 章节标题：只写本章节主题；Part 编号由上方 section-slide-marker 控制。 -->
 
 ![Figure](/Image/fig_23.png)
 <!-- 章节图：放置能代表本章节主题的视觉封面或概念图。 -->
@@ -149,8 +151,10 @@ Each **reasoning step** corresponds to a physical operation, and conclusions fro
 
 <!-- 页面类型：纯章节标题页。用于轻量切换到新部分，不放图片，适合节奏很快或后续页面会马上展开视觉内容的章节。 -->
 
-# Part 6 - Looking Up: From Reasoning to Action
-<!-- 章节标题：只写 Part 编号和章节主题。 -->
+<span class="section-slide-marker" data-kicker="Part 6" data-index="06"></span>
+
+# Looking Up: From Reasoning to Action
+<!-- 章节标题：只写本章节主题；Part 编号由上方 section-slide-marker 控制。 -->
 
 ---
 
