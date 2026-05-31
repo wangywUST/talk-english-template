@@ -197,3 +197,7 @@ Questions and discussion welcome.
 
 ![UC Merced](/Image/uc_yellow.svg)
 <!-- 标识图片：再次放置 logo 或品牌标识。 -->
+
+<style>
+:global(#slidev-goto-dialog.-top-20) { overflow: hidden; max-height: 80px; }
+</style>
